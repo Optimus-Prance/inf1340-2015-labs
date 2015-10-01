@@ -18,8 +18,7 @@ def vowel_or_consonant():
     display a message indicating that the letter is a "consonant".
     """
 
-    print("hello, please enter a letter from the Alphabet"
-          " and I will tell you if it is a vowel or consonant. Please only input lowercase letters")
+  
     letter_choice = raw_input()
     if letter_choice == "a":
         print("vowel")
@@ -36,4 +35,4 @@ def vowel_or_consonant():
     else:
         print("consonant")
 
-print(vowel_or_consonant())
+
