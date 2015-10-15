@@ -37,7 +37,7 @@ def name_that_shape():
     Errors: ValueError when input is a string or float
 
     """
-    sides =helper()
+    sides =helper_function()
 
     if sides == 3:
         print("triangle")
@@ -59,7 +59,7 @@ def name_that_shape():
         print("Error")
 
 #make function
-def helper():
+def helper_function():
     user_input = 0
     is_integer = False
     while is_integer is not True:
@@ -77,5 +77,5 @@ def helper():
 
 
 
-print(name_that_shape())
+
 
