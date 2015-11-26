@@ -24,3 +24,5 @@ def days_in_month(month):
         raise ValueError
 
     return days
+
+print(days_in_month("february"))
