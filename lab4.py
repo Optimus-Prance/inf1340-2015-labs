@@ -49,4 +49,4 @@ def bill_of_sale(purchase):
         output_file.write(("Total tax: {0:.2f}\n".format(total_tax(purchase))))
         output_file.write(("Total sale: {0:.2f}\n".format(total_sale(purchase))))
 
-bill_of_sale(100)
+bill_of_sale(1000)
