@@ -44,7 +44,7 @@ class NameThatShapeGUI:
         # Create widgets for the middle frame
         self.descr_label = Tkinter.Label(self.middle_frame, text="Name of shape:")
         self.value = Tkinter.StringVar()
-        self.value.set(name_that_shape(self.value))
+        
         self.shape_name = Tkinter.Label(self.middle_frame, textvariable=self.value)
 
         # Pack the middle frame's widgets
